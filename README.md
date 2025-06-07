@@ -1,4 +1,57 @@
-https://aeey.netlify.app/
+
+
+# 🎓 AEEY — Plateforme de Gestion Associative Étudiante
+
+**AEEY** est une plateforme web dédiée aux associations étudiantes pour gérer facilement leurs membres, événements, dons et cotisations.
+
+🌐 Voir le site: https://aeey.netlify.app/ · 
+🔐 API en ligne: https://last-project-server-1.onrender.com
+
+---
+
+## ✨ Fonctionnalités
+
+- Authentification sécurisée (JWT)
+- Rôles utilisateur (admin, membre, donateur, invité)
+- Validation d’adhésion par l’administrateur
+- Tableau de bord administrateur
+## - Système de dons et cotisation avec intégration PayPal, strype et cinetpay en cours de production
+- Création/gestion d’événements
+## - Upload d’image de profil et événements (Cloudinary) en cours de production
+
+---
+
+## 🧱 Technologies utilisées
+
+### Frontend (React + Vite)
+- Vite, React Router DOM
+- Tailwind CSS
+- Axios, React Toastify
+- PayPal React SDK
+- cinetpay
+-strype
+
+### Backend (Express + MongoDB)
+- Express.js 5, Mongoose 8
+- JWT, BcryptJS
+- Multer (upload fichiers)
+- Cloudinary (images)
+- Nodemailer (emails)
+- PayPal Checkout Server SDK
+
+---
+
+## 📦 Installation locale
+
+### Backend
+
+
+git clone https://github.com/GBOKO-git/DeploymentLastProject.git
+cd last_project
+npm install
+cp .env.example .env
+npm run dev
+
 
 
 # React + Vite
