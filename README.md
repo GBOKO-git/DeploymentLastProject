@@ -1,8 +1,11 @@
 
+# 🚀 Déploiement AEEY — Netlify (Frontend) & Render (Backend)
 
-# 🎓 AEEY — Plateforme de Gestion Associative Étudiante
+Ce guide détaille les étapes nécessaires pour déployer l'application **AEEY** en production :
 
-**AEEY** est une plateforme web dédiée aux associations étudiantes pour gérer facilement leurs membres, événements, dons et cotisations.
+- **Frontend (React + Vite)** : hébergé sur [Netlify](https://www.netlify.com/)
+- **Backend (Express + MongoDB)** : hébergé sur [Render](https://render.com/)
+- **Base de données** : [MongoDB Atlas](https://www.mongodb.com/atlas)
 
 🌐 Voir le site: https://aeey.netlify.app/ · 
 🔐 API en ligne: https://last-project-server-1.onrender.com
